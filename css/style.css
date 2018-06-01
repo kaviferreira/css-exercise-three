@@ -1,3 +1,8 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
 body {
   background-color: #333;
   font-family: sans-serif;
@@ -29,11 +34,15 @@ background-color: #eee
 .location{
   padding: 1.5em 1.5em 1.5em 1.5em;
   border-bottom: 1px solid #777;
-  display: flex;
+}
+.content{
+  display: inline-block;
+  width:79%;
 }
 
-.fa-chevron-right{
-
+.arrow{
+display: inline-block;
+width:15%;
 }
 
 
